@@ -1,0 +1,57 @@
+@charset "UTF-8";
+    
+    /*Config Global*/
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*Celular*/
+
+
+
+@media (max-width: 460px) {
+
+body{
+    cursor: url("../Imagens/Lapis.png") auto;
+}    
+
+
+}
+
+    /*Pc/Laptop*/
+
+
+
+@media (min-width: 1000px){
+
+body{
+    cursor: url("../Imagens/Lapis.png") auto;
+}
+.center-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    width:900px; 
+    height:500px; 
+    border:2px solid black;
+}
+
+}
+
+      /*Tablet*/
+
+
+
+@media (min-width: 461px) and (max-width: 999px) {
+    
+body{
+    cursor: url("../Imagens/Lapis.png") auto;
+}
+}
