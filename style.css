@@ -15,9 +15,62 @@
 @media (max-width: 460px) {
 
 body{
-    cursor: url("../Imagens/Lapis.png") auto;
-}    
+    cursor: url("") auto;
+    background-color: #c2c2d3;
+}   
 
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    width:95%; 
+    height:570px; 
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.buttom-tools{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    
+}
+
+.buttom-tools button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+button :hover {
+    background-color: #c2c2d3;
+}
+
+.input-color{
+    background-color: white;
+}
 
 }
 
@@ -28,30 +81,117 @@ body{
 @media (min-width: 1000px){
 
 body{
-    cursor: url("../Imagens/Lapis.png") auto;
+    cursor: url("") auto;
+    background-color: #c2c2d3;
+
 }
-.center-div{
-    height: 100vh;
+.container{
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .canvas{
-    width:900px; 
-    height:500px; 
+    width:95%; 
+    height:600px; 
     border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.buttom-tools{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    padding-bottom: 5px;
+    
+}
+
+.buttom-tools button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.input-color{
+    background-color: white;
+}
+
+.buttom-tools :hover{
+    background-color: #c2c2d3;
+    cursor: pointer;
 }
 
 }
 
-      /*Tablet*/
+      /*Tabetl*/
 
 
 
 @media (min-width: 461px) and (max-width: 999px) {
     
 body{
-    cursor: url("../Imagens/Lapis.png") auto;
+    cursor: url("") auto;
+    background-color: #c2c2d3
 }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    width:95%; 
+    height:500px; 
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.buttom-tools{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    
+}
+
+.buttom-tools button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.input-color{
+    background-color: white;
+}
+
 }
