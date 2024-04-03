@@ -9,14 +9,23 @@
     <title>Mini-Paint</title>
 </head>
 <body>
-    <section class="buttom-tools">
-        <button><span class="material-symbols-outlined">brush</span></button>
-        <button><span class="material-symbols-outlined">ink_eraser</span></button>
-        <button><span class="material-symbols-outlined">delete</span></button>
-        <button><input class="input-color" type="color"></button>
+    <section class="tool-box">
+        <button class="button__tool active" data-action="brush">
+            <span class="material-symbols-outlined">brush</span>
+        </button>
+
+        <button class="button__tool" data-action="rubber">
+            <span class="material-symbols-outlined">ink_eraser</span>
+        </button>
+        <button class="button__tool button__clear">
+            <span class="material-symbols-outlined">delete</span>
+        </button>
+        <button class="button__tool">
+            <input type="color" class="input__color">
+        </button>
     </section>
     <section class="container">
-        <canvas class="canvas">Seu Navegador Não Suportou O Canva</canvas>
+        <canvas class="canvas" width="1100" height="600">Não Suportado</canvas>
     </section>
     <script src="script.js"></script>
 </body>
