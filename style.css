@@ -1,0 +1,218 @@
+@charset "UTF-8";
+    
+    /*Config Global*/
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /*Celular*/
+
+
+
+@media (max-width: 460px) {
+
+body{
+    cursor: url("") auto;
+    background-color: #c2c2d3;
+}   
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.tool-box{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    
+}
+
+.tool-box button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+button :hover {
+    background-color: #c2c2d3;
+}
+
+.input-color{
+    background-color: white;
+}
+
+.button-tool{
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+}
+
+    /*Pc/Laptop*/
+
+
+
+@media (min-width: 1000px){
+
+body{
+    cursor: url("") auto;
+    background-color: #c2c2d3;
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.tool-box{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    padding-bottom: 5px;
+    
+}
+
+.tool-box button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.input-color{
+    background-color: white;
+}
+
+.tool-box :hover{
+    background-color: #c2c2d3;
+    cursor: pointer;
+}
+
+.button-tool{
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+}
+
+      /*Tablet*/
+
+
+
+@media (min-width: 461px) and (max-width: 999px) {
+    
+body{
+    cursor: url("") auto;
+    background-color: #c2c2d3
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-div{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas{
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.tool-box{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    
+}
+
+.tool-box button {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.input-color{
+    background-color: white;
+}
+
+.button-tool{
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+}
